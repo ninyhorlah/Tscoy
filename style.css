@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000000;
+}
+
+* {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Adjusting the logo */
+.logo {
+    margin: 80px 200px 30px 200px;
+}
+
+/* styling the maintenance text */
+.maintenanceMsg {
+    color: #ffffff;
+    font-size: 31px;
+    padding: 50px 0 10px 0;
+}
+
+/* styling the button */
+.btn button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid gray;
+    
+}
+
+button:hover {
+    border-color: red;
+}
+
+/* styling the footer */
+footer {
+    
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+   color: #bbb8b8;
+}
+
+/* styling the form */
+
+textarea {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px 0 15px 15px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+input::placeholder {
+    color: #ffffff;
+}
+
+input {
+    text-align: left;
+    border: 1px solid gray;
+    background-color: #000000;
+    padding: 15px 300px 15px 15px;
+    margin: 10px
+}
+
+.submit input {
+    color: #ffffff;
+    padding: 10px 60px ;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+/* making an hover border */
+
+input:hover {
+    border: 1px solid red;
+}
+
+textarea:hover {
+    border: 1px solid red;
+}
