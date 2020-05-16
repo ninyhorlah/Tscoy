@@ -113,3 +113,22 @@ textarea:hover {
         margin-top: 40px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .maintenanceMsg {
+        color: #ffffff;
+        font-size: 1em;
+        padding: 5% 0 3% 0;
+    }
+
+    textarea {
+        background-color: #000000;
+        color: #ffffff;
+        text-align: left;
+        padding: 1% 30% 10% 1%;
+        margin: 1%;
+        border: 1px solid gray;
+    }
+
+    
+}
