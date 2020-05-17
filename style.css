@@ -4,7 +4,8 @@ body {
 }
 
 /* Using a custom font  */
-@font-face { font-family: productSans; src: url('./font/productSans-Regular.ttf'); } 
+@font-face { font-family: productSans; src: url('./font/ProductSans-Medium.ttf'); }
+
 
 * {
     margin: 0;
@@ -23,7 +24,7 @@ body {
 .maintenanceMsg {
     color: #ffffff;
     font-size: 2.4em;
-    padding: 5% 0 3% 0;
+    padding: 5% 0 5% 0;
 }
 
 /* styling the button */
@@ -99,7 +100,7 @@ textarea:hover {
     .maintenanceMsg {
         color: #ffffff;
         font-size: 1.3em;
-        padding: 5% 0 3% 0;
+        padding: 5% 0 6% 0;
     }
 
     textarea {
@@ -124,7 +125,7 @@ textarea:hover {
     .maintenanceMsg {
         color: #ffffff;
         font-size: 1em;
-        padding: 5% 0 3% 0;
+        padding: 5% 0 6% 0;
     }
 
     textarea {
